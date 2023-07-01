@@ -2,7 +2,7 @@ import React from "react";
 import { Items } from "./constants";
 function Sidebar({ activeStep }) {
   return (
-    <div className="flex flex-col gap-8 bg-sidebarBg bg-bottom bg-no-repeat bg-cover w-2/5 rounded-lg text-white p-6">
+    <div className="flex  flex-col gap-8 bg-sidebarBg bg-bottom bg-no-repeat bg-cover w-2/5 rounded-lg text-white p-6">
       {Items.map((item) => (
         <div className="flex items-center gap-4" key={item.id}>
           <span

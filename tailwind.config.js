@@ -7,7 +7,7 @@ export default {
         ubuntu: ["Ubuntu", "sans-serif"],
       },
       backgroundImage: {
-        "sidebarBg": "url('src/assets/bg-sidebar-desktop.svg')",
+        "sidebarBg": "url('/src/assets/bg-sidebar-desktop.svg')",
       },
     },
   },
